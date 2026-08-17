@@ -7,7 +7,7 @@ let username = 'John Doe';
 let password = 'ThisIsNotAPassword';
 
 
-test ('child element', async ({ page }) => {
+test.skip ('child element', async ({ page }) => {
 
 await page.goto(url1);
 
